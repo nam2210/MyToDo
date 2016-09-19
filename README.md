@@ -4,7 +4,7 @@
 
 Submitted by: **Nam Pham Hoang**
 
-Time spent: **1.5** hours spent in total
+Time spent: **2** hours spent in total
 
 ## User Stories
 
@@ -31,7 +31,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://imgur.com/a/WyiFK' title='MyTodoList' width='' alt='MyTodoList' />
+<img src='http://i.imgur.com/u2udVmU.gifv' title='MyTodoList' width='' alt='MyTodoList' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
