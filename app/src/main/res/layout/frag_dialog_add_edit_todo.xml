@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:paddingTop="@dimen/spacing_8"
+              android:paddingLeft="@dimen/spacing_16"
+              android:paddingRight="@dimen/spacing_8">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/todo_name"
+        android:textSize="@dimen/font_16_subtitle"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/dialog_edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_4"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_8"
+        android:text="@string/todo_dueto"
+        android:textSize="@dimen/font_16_subtitle"
+        android:textStyle="bold"
+        />
+
+    <DatePicker
+        android:id="@+id/dialog_datePicker"
+        style="@android:style/Widget.Holo.DatePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_4"
+        android:calendarViewShown="false"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_4"
+        android:text="@string/todo_priority"
+        android:textSize="@dimen/font_16_subtitle"
+        android:textStyle="bold"
+        />
+
+    <RadioGroup
+        android:id="@+id/dialog_radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/spacing_4"
+        android:gravity="center">
+
+        <RadioButton
+            android:id="@+id/dialog_rbtn_priority_high"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/priority_high"
+            android:layout_marginLeft="@dimen/spacing_4"
+            android:layout_marginRight="@dimen/spacing_4"
+            android:buttonTint="@color/colorAccent"/>
+
+        <RadioButton
+            android:id="@+id/dialog_rbtn_priority_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/priority_normal"
+            android:layout_marginLeft="@dimen/spacing_4"
+            android:layout_marginRight="@dimen/spacing_4"
+            android:buttonTint="@color/colorAccent"/>
+
+        <RadioButton
+            android:id="@+id/dialog_rbtn_priority_low"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/priority_low"
+            android:layout_marginLeft="@dimen/spacing_4"
+            android:layout_marginRight="@dimen/spacing_4"
+            android:buttonTint="@color/colorAccent"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/spacing_16"
+        android:gravity="right">
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/dialog_tv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:layout_marginLeft="@dimen/spacing_8"
+            android:layout_marginRight="@dimen/spacing_8"
+            android:textSize="@dimen/font_16_subtitle"/>
+        <TextView
+            style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/dialog_tv_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            android:layout_marginLeft="@dimen/spacing_8"
+            android:layout_marginRight="@dimen/spacing_8"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/font_16_subtitle"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -3,4 +3,16 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!-- customize color -->
+    <color name="red_500">#3F51B5</color>
+    <color name="red_normal">#3F51B5</color>
+    <color name="red_pressed">#303F9F</color>
+    <color name="white">#ffffff</color>
+    <color name="gray_0">#746d6c</color> <!-- liner border -->
+    <color name="gray_1">#BDBDBD</color> <!-- hint text or liner divider-->
+
+    <color name="red">#E53935</color>
+    <color name="green">#4CAF50</color>
+    <color name="yellow">#FFB300</color>
 </resources>

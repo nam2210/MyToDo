@@ -1,4 +1,21 @@
 <resources>
-    <string name="app_name">My Todo List</string>
+    <string name="app_name">My Todos</string>
     <string name="title_activity_edit_item">Edit ToDo</string>
+    <string name="add_item">Add ToDo</string>
+    <string name="todo_name">Name</string>
+    <string name="todo_dueto">Due to</string>
+    <string name="todo_priority">Priority</string>
+    <string name="priority_high">High</string>
+    <string name="priority_normal">Normal</string>
+    <string name="priority_low">Low</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+
+    <string name="regular_font">helveticaneue.ttf</string>
+    <string name="condensedBold_font">helveticaneuecondensedbold.ttf</string>
+    <string name="bold_font">helveticaneuebold.ttf</string>
+    <string name="lightItalic_font">helveticaneuelightitalic.ttf</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

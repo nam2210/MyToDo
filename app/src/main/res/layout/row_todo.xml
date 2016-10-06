@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                xmlns:tool="http://schemas.android.com/tools"
+                android:background="@drawable/shape_with_bottom_stroke"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/spacing_16"
+                android:paddingEnd="@dimen/spacing_16"
+                android:paddingRight="@dimen/spacing_16"
+                android:paddingStart="@dimen/spacing_16"
+                android:paddingTop="@dimen/spacing_8"
+                android:paddingBottom="@dimen/spacing_8">
+
+    <TextView
+        android:id="@+id/todo_tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/todo_tv_priority"
+        android:layout_toStartOf="@id/todo_tv_priority"
+        android:textStyle="bold"
+        tool:text="Name"
+        android:textSize="@dimen/font_16_subtitle"/>
+
+    <TextView
+        android:id="@+id/todo_tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/todo_tv_name"
+        android:layout_toLeftOf="@id/todo_tv_priority"
+        android:layout_toStartOf="@id/todo_tv_priority"
+        tool:text="Description"
+        android:textColor="@color/gray_1"
+        android:textSize="@dimen/font_12"/>
+
+    <TextView
+        android:id="@id/todo_tv_priority"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:textSize="@dimen/font_16_subtitle"
+        tool:text="HIGH"/>
+</RelativeLayout>
